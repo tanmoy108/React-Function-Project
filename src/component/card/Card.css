@@ -1,0 +1,42 @@
+.card-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-card-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.card-container {
+  width: 15em;
+  background: rgb(183, 255, 227);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-container img {
+  width: 150px;
+}
+.card-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-container {
+    width: 100%;
+  }
+  .inner-card-list {
+    padding: 0;
+  }
+}
